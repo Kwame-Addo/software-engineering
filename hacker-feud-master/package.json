@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public -p 55555"
+    "start": "sirv public -p 55555",
+    "test: "circleci"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
